@@ -1,4 +1,4 @@
-# Gemstone Price Prediction - Utkarsh Gaikwad
+# Gemstone Price Prediction 
 # http://192.168.225.83:8000/
 ### Introduction About the Data :
 
