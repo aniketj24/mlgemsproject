@@ -1,4 +1,4 @@
-FROM python:3.9-slim-bookworm
+FROM python:3.7-slim-buster
 
 WORKDIR /app
 
@@ -6,6 +6,6 @@ COPY . /app
 
 RUN apt update -y
 
-RUN apt-get update && pip install 
+RUN apt-get update && pip install -r requirements.txt 
 
 CMD ["python3", "application.py"]
